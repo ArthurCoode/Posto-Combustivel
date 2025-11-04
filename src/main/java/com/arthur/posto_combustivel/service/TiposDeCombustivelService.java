@@ -1,8 +1,8 @@
-package com.javanauta.posto_combustivel.service;
+package com.arthur.posto_combustivel.service;
 
-import com.javanauta.posto_combustivel.infrastructure.entities.BombasDeCombustivel;
-import com.javanauta.posto_combustivel.infrastructure.entities.TiposDeCombustivel;
-import com.javanauta.posto_combustivel.infrastructure.repositories.TipoDeCombustivelRepostory;
+import com.arthur.posto_combustivel.infrastructure.entities.BombasDeCombustivel;
+import com.arthur.posto_combustivel.infrastructure.entities.TiposDeCombustivel;
+import com.arthur.posto_combustivel.infrastructure.repository.TipoDeCombustivelRepository;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
@@ -13,7 +13,7 @@ import java.util.List;
 @RequiredArgsConstructor
 public class TiposDeCombustivelService {
 
-    private final TipoDeCombustivelRepostory tipoDeCombustivelRepostory;
+    private final TipoDeCombustivelRepository tipoDeCombustivelRepostory;
 
     public void criar(TiposDeCombustivel tiposDeCombustivel){
         tipoDeCombustivelRepostory.save(tiposDeCombustivel);

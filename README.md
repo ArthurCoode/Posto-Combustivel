@@ -48,13 +48,14 @@ Antes de iniciar, certifique-se de ter instalado:
 
 ```bash
 # 1️⃣ Clone o repositório
-git clone https://github.com/seu-usuario/api-posto-combustivel.git
+git clone https://github.com/ArthurCoode/Posto-Combustivel.git
 
 # 2️⃣ Acesse a pasta do projeto
-cd api-posto-combustivel
+cd Posto-Combustivel
 
 # 3️⃣ Compile e baixe as dependências
 mvn clean install
 
 # 4️⃣ Execute o projeto
 mvn spring-boot:run
+

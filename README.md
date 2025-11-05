@@ -1,4 +1,4 @@
-# ⛽ API - Posto de Combustível
+# ⛽ Posto de Combustível
 
 Esta é uma **API RESTful** desenvolvida em **Java** para o gerenciamento de um **posto de combustível**.  
 O sistema permite o **cadastro de bombas, produtos (como gasolina e etanol)** e o **registro de abastecimentos**, com todos os dados sendo salvos em um banco de dados relacional.
@@ -58,4 +58,5 @@ mvn clean install
 
 # 4️⃣ Execute o projeto
 mvn spring-boot:run
+
 
